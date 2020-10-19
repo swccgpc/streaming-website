@@ -1,0 +1,25 @@
+<ul id="menu-main-menu" class="menu pp-advanced-menu-horizontal pp-toggle-arrows">
+
+{% for nav in site.navigation %}
+  <li class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == nav.href %}menu-item-home current-menu-item page_item page-item-2 current_page_item{% endif %} {% if nav.subcategories != null %}menu-item-has-children pp-has-submenu{% endif %}">
+
+  {% if nav.subcategories != null %}<div class="pp-has-submenu-container">{% endif %}
+
+    <a href="{{ nav.href }}"><span class="menu-item-text">{{ nav.title }}</span>{% if nav.subcategories != null %}<span class="pp-menu-toggle"></span>{% endif %}</a>
+  {% if nav.subcategories != null %}</div>{% endif %}
+
+    {% if nav.subcategories != null %}
+      {% for subcategory in nav.subcategories %}
+        <ul class="sub-menu">
+          <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ subcategory.subhref }}"><span class="menu-item-text">{{ subcategory.subtitle }}</span></a></li>
+        </ul>
+      {% endfor %}
+    {% endif %}
+
+  
+
+  </li>
+{% endfor %}
+
+
+</ul>

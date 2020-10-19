@@ -1,0 +1,22 @@
+---
+
+#profile:   swccg-production
+s3_bucket: streaming.starwarsccg.org
+s3_endpoint: us-east-2
+gzip:
+  - .html
+  - .css
+  - .md
+gzip_zopfli: false
+
+
+exclude_from_upload:
+  - those_folders_of_stuff
+  - i_wouldnt_want_to_upload
+
+# s3_reduced_redundancy: true
+
+cloudfront_distribution_id: EF104WIQ7UEVG
+cloudfront_invalidate_root: true
+
+

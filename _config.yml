@@ -1,0 +1,53 @@
+---
+
+title: SWCCG Streaming
+email: advocate@starwarsccg.org
+description: ""
+baseurl: ""
+url: "https://streaming.starwarsccg.org"
+highlighter: rouge
+markdown: kramdown
+
+##
+## https://jekyllrb.com/docs/permalinks/
+##
+permalink: pretty
+##permalink: /:year/:month/:title.html
+##permalink: /:categories/:title
+##permalink: /:title/
+
+exclude: 
+  - .git
+  - .github
+  - .gitignore
+  - .sass-cache
+  - Gemfile
+  - gruntfile.js
+  - gulpfile.js
+  - node_modules
+  - package-lock.json
+  - package.json
+  - Rakefile
+  - README.md
+  - s3_website.yml
+  - sass
+
+
+include: ['_pages']
+
+navigation:
+
+  - title: "Home"
+    href:  /
+
+  - title: "What is GEMP?"
+    href:  /what-is-gemp/
+
+  - title: "Streaming"
+    href:  /streaming/
+    subcategories:
+      - subtitle: How to Stream
+        subhref:  /streaming/how-to-stream/
+
+
+
