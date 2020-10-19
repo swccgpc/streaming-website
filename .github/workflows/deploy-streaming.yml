@@ -5,14 +5,14 @@ name: Deploy streaming
 on: 
   push: 
     branches: 
-      - master
+      - main
 
 jobs:
   deploy-vkit: 
     runs-on: "ubuntu-latest"
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
 
       - name: install jekyll
         run: gem install bundler jekyll
