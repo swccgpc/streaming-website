@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -207,16 +207,46 @@
          id="path926"
          inkscape:connector-curvature="0" />
     </g>
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="Streaming"
        style="font-style:normal;font-weight:normal;font-size:55.55580902px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#102d59;fill-opacity:1;stroke:none;stroke-width:1.38889515"
-       x="212.92575"
-       y="90.643539"
-       id="text1903"><tspan
-         sodipodi:role="line"
-         id="tspan1901"
-         x="212.92575"
-         y="90.643539"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515">Streaming</tspan></text>
+       id="text1903">
+      <path
+         d="m 248.13641,63.136904 h -12.31559 q -6.9716,-0.217015 -2.06164,3.852014 8.7891,7.704028 8.62634,14.974026 -0.16276,7.269999 -8.62634,8.680595 H 199.57934 V 78.97899 h 21.59298 q 7.6769,0.217015 1.95313,-4.286044 -9.44015,-8.680595 -8.02955,-15.950594 1.4106,-7.269998 8.89761,-7.269998 h 24.1429 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path924" />
+      <path
+         d="m 281.06842,51.472354 v 11.66455 h -12.4241 V 90.643539 H 255.8947 V 63.136904 h -12.42411 v -11.66455 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path927" />
+      <path
+         d="M 282.47902,90.643539 V 51.472354 h 25.49925 q 4.72007,0.43403 7.75828,2.495671 3.03821,2.061641 4.44881,5.533879 1.08507,5.208357 0.1085,8.029551 -0.97656,2.821193 -3.41798,4.720073 -2.44142,1.898881 -6.99873,2.983955 l 2.9297,3.743507 h 11.7188 v 11.664549 h -15.46231 l -12.4241,-12.939512 v 12.939512 z m 14.16022,-29.405516 v 7.215745 h 9.87418 q 0.78668,0 1.70899,-0.569664 0.92231,-0.596791 0.97657,-2.956828 -0.13564,-2.251529 -1.1122,-2.956827 -0.94944,-0.732426 -1.60049,-0.732426 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path929" />
+      <path
+         d="M 324.5799,90.643539 V 51.472354 h 33.58306 v 11.66455 h -20.83343 v 4.503058 h 13.45492 v 6.835969 h -13.45492 v 4.503059 h 24.1429 v 11.664549 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path931" />
+      <path
+         d="m 357.67467,90.643539 12.88526,-39.171185 h 19.44996 l 13.10227,39.171185 h -14.81127 l -2.46854,-7.052983 h -11.63742 l -2.46855,7.052983 z m 22.65093,-30.49059 -5.61526,15.516564 h 10.79649 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path933" />
+      <path
+         d="M 402.05422,90.643539 V 51.472354 h 12.74963 l 8.57208,16.276116 8.51784,-16.276116 h 12.74962 V 90.643539 H 431.89377 V 74.367424 l -8.19231,16.276115 h -0.7053 l -8.19231,-16.276115 v 16.276115 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path935" />
+      <path
+         d="m 446.86779,51.472354 h 12.74962 v 39.171185 h -12.74962 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path937" />
+      <path
+         d="M 462.38436,90.643539 V 51.472354 h 12.74962 l 11.66455,14.648504 V 51.472354 h 12.74962 V 90.643539 H 486.79853 L 475.13398,75.995035 v 14.648504 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path939" />
+      <path
+         d="m 527.59734,78.97899 v -7.921043 h 12.26134 v 19.585592 h -17.36119 q -6.37482,0 -11.52892,-2.251529 -5.1541,-2.278656 -8.13806,-6.808842 -2.95682,-4.530185 -2.95682,-11.094885 0,-4.611567 1.76324,-8.219439 1.79037,-3.634999 4.93709,-6.022163 3.14672,-2.41429 7.21574,-3.580745 4.09616,-1.193582 8.70773,-1.193582 h 10.74223 6.61896 v 11.66455 h -12.26134 q -4.12329,0 -6.10355,0.244141 -1.98026,0.244142 -3.52649,0.813806 -1.54623,0.569664 -2.73981,1.980261 -1.19358,1.410597 -1.38347,4.991342 0.13563,3.472238 1.38347,4.964215 1.24783,1.491978 3.03821,1.980261 1.79037,0.488284 3.68925,0.678172 1.89888,0.189888 5.64239,0.189888 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Star Jedi';-inkscape-font-specification:'Star Jedi';fill:#102d59;fill-opacity:1;stroke-width:1.38889515"
+         id="path941" />
+    </g>
   </g>
 </svg>
